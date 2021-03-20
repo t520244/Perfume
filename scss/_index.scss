@@ -71,14 +71,19 @@
 		}
 		.content_right {
 			display: flex;
+			justify-content: center;
 			.text_right {
 				padding: 10rem 5rem;
 				line-height: 1.5;
 				li {
 					line-height: 1.5rem;
 					padding-top: 2rem;
-					border: solid 1px red;
+					// border: solid 1px red;
 				}
+
+			// .btn{
+			// 	// border: solid 1px red;
+			// }
 				h2 {
 					font-size: $font-xxl;
 				}
@@ -223,10 +228,6 @@
 		}
 	}
 }
-
-
-
-
 .subscription {
 	position: relative;
 	height: 600px;
@@ -260,6 +261,11 @@
 }
 
 @media(max-width: 767px) {
+	// input[type="button"] {
+	// 	// width: 130%;
+	// 	font-size: 16px;
+	// 	border: sol
+	// }
 	.subscription {
 		background-image: url(../images/anis-s-bg.jpg);
 		background-repeat: no-repeat;
@@ -268,5 +274,12 @@
 			left: 10rem;
 			bottom: 10rem;
 		}
+	}
+}
+
+
+@media(max-width: 414px) {
+	.btn{
+		border: solid 1px red;
 	}
 }

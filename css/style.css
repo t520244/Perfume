@@ -246,6 +246,7 @@ img {
 
 .main .content .content_right {
   display: flex;
+  justify-content: center;
 }
 
 .main .content .content_right .text_right {
@@ -256,7 +257,6 @@ img {
 .main .content .content_right .text_right li {
   line-height: 1.5rem;
   padding-top: 2rem;
-  border: solid 1px red;
 }
 
 .main .content .content_right .text_right h2 {
@@ -452,6 +452,12 @@ img {
     position: absolute;
     left: 10rem;
     bottom: 10rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .btn {
+    border: solid 1px red;
   }
 }
 
