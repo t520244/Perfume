@@ -267,6 +267,11 @@
 			font-size: $font-xl;
 		}
 	}
+	.content_right{
+		.btn{
+			broder: solid 1px red;
+		}
+	}
 	.subscription {
 		background-image: url(../images/anis-s-bg.jpg);
 		background-repeat: no-repeat;
