@@ -207,12 +207,6 @@ img {
   width: 58%;
 }
 
-.main .content .btn {
-  display: flex;
-  justify-content: center;
-  padding: 30px 40px;
-}
-
 .main .content input[type="button"] {
   background-color: #00000000;
   border-radius: 30px;
