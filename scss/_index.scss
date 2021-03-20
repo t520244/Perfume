@@ -262,6 +262,20 @@
 }
 
 @media(max-width: 767px) {
+	
+	
+	.subscription {
+		background-image: url(../images/anis-s-bg.jpg);
+		background-repeat: no-repeat;
+		.subscription_text {
+			position: absolute;
+			left: 10rem;
+			bottom: 10rem;
+		}
+	}
+}
+
+@media(max-width: 414px) {
 	.main{
 		border: solid 1px red;
 		.content{
@@ -277,15 +291,4 @@
 			}
 		}
 	}
-	
-	.subscription {
-		background-image: url(../images/anis-s-bg.jpg);
-		background-repeat: no-repeat;
-		.subscription_text {
-			position: absolute;
-			left: 10rem;
-			bottom: 10rem;
-		}
-	}
 }
-
