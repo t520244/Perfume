@@ -480,6 +480,7 @@ img {
     position: absolute;
     left: 2rem;
     bottom: 10rem;
+    border: solid 2px red;
   }
   .subscription .subscription_text h2 {
     font-size: 16px;
