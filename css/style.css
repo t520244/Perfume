@@ -414,6 +414,11 @@ img {
     justify-content: center;
     margin: 0 6rem;
   }
+  .subscription .subscription_text {
+    position: absolute;
+    left: 10rem;
+    bottom: 10rem;
+  }
 }
 
 .subscription {
@@ -427,6 +432,7 @@ img {
 
 .subscription .subscription_text {
   position: absolute;
+  left: 20rem;
   bottom: 6rem;
   border: solid 2px red;
 }
@@ -453,10 +459,6 @@ img {
 }
 
 @media (max-width: 767px) {
-  .subscription {
-    background-image: url(../images/anis-s-bg.jpg);
-    background-repeat: no-repeat;
-  }
   .subscription .subscription_text {
     position: absolute;
     left: 10rem;
@@ -465,9 +467,6 @@ img {
 }
 
 @media (max-width: 414px) {
-  input[type="button"] {
-    width: 130%;
-  }
   .subscription .subscription_text {
     position: absolute;
     left: 2rem;
