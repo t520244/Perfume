@@ -73,8 +73,9 @@
 			display: flex;
 			justify-content: center;
 			.text_right {
-				padding: 6rem 3rem;
+				padding: 8rem 1.2rem;
 				line-height: 1.5;
+				border: solid 1px red;
 				li {
 					line-height: 1.5rem;
 					padding-top: 2rem;

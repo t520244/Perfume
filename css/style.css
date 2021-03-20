@@ -250,8 +250,9 @@ img {
 }
 
 .main .content .content_right .text_right {
-  padding: 6rem 3rem;
+  padding: 8rem 1.2rem;
   line-height: 1.5;
+  border: solid 1px red;
 }
 
 .main .content .content_right .text_right li {
