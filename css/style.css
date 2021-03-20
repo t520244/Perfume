@@ -445,6 +445,7 @@ img {
 
 @media (max-width: 767px) {
   input[type="button"] {
+    width: 130%;
     font-size: 16px;
     border: sol;
   }
