@@ -395,7 +395,7 @@ img {
 }
 
 .subscription .subscription_text input[type="email"] {
-  padding: 18px 30px;
+  padding: 16px 24px;
   border-radius: 2px;
   outline: none;
   font-size: 20px;
@@ -403,9 +403,10 @@ img {
 }
 
 .subscription .subscription_text button {
-  padding: 20px;
+  padding: 16px;
   outline: none;
   border-radius: 2px;
+  font-size: 20px;
   border: solid 4px #916000;
   color: #FFFFFF;
   background-color: #916000;
