@@ -264,7 +264,6 @@
 @media(max-width: 767px) {
 	input[type="button"] {
 		width: 100%;
-		padding: 0;
 	}
 	.subscription {
 		background-image: url(../images/anis-s-bg.jpg);
@@ -273,7 +272,6 @@
 			position: absolute;
 			left: 10rem;
 			bottom: 10rem;
-			border: solid 2px red;
 		}
 	}
 }
@@ -282,6 +280,12 @@
 @media(max-width: 414px) {
 	input[type="button"] {
 		width: 100%;
-		padding: 0;
+	}
+	.subscription {
+		.subscription_text {
+			position: absolute;
+			left: 10rem;
+			bottom: 10rem;
+		}
 	}
 }
