@@ -395,11 +395,6 @@ img {
   .main .content .content_right .text_right {
     padding: 0 6.5rem;
   }
-  .main .content input[type="button"] {
-    width: 130%;
-    padding: 0;
-    font-size: 20px;
-  }
   .shop .shop_buy {
     flex-direction: column;
   }
