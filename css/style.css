@@ -460,7 +460,7 @@ img {
     font-size: 24px;
   }
   .subscription .subscription_text input[type="email"] {
-    padding: 10px 20px;
+    padding: 8px 20px;
   }
   .subscription .subscription_text button {
     padding: 10px;
@@ -472,15 +472,7 @@ img {
   .subscription .subscription_text {
     position: absolute;
     left: 10rem;
-    bottom: 10rem;
-  }
-}
-
-@media (max-width: 414px) {
-  .subscription .subscription_text {
-    position: absolute;
-    left: 2rem;
-    bottom: 10rem;
+    bottom: 15rem;
   }
 }
 
