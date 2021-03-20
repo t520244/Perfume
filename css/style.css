@@ -395,6 +395,10 @@ img {
   .main .content .content_right .text_right {
     padding: 0 6.5rem;
   }
+  .main .content input[type="button"] {
+    width: 100%;
+    font-size: 20px;
+  }
   .shop .shop_buy {
     flex-direction: column;
   }
@@ -445,9 +449,7 @@ img {
 
 @media (max-width: 767px) {
   input[type="button"] {
-    width: 130%;
-    font-size: 16px;
-    border: sol;
+    width: 100%;
   }
   .subscription {
     background-image: url(../images/anis-s-bg.jpg);
@@ -462,9 +464,7 @@ img {
 
 @media (max-width: 414px) {
   input[type="button"] {
-    width: 130%;
-    font-size: 16px;
-    border: sol;
+    width: 100%;
   }
 }
 
