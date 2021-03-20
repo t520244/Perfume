@@ -299,11 +299,15 @@
 			position: absolute;
 			left: 4rem;
 			bottom: 15rem;
-			// border: solid 2px red;
+			.form{
+				width: 100%;
+			}
 			input[type="email"] {
+				width: 100%;
 				padding: 3px;
 			}
 			button {
+				width: 100%;
 				padding: 4px 3px;
 			}
 		}

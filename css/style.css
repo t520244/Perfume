@@ -481,10 +481,15 @@ img {
     left: 4rem;
     bottom: 15rem;
   }
+  .subscription .subscription_text .form {
+    width: 100%;
+  }
   .subscription .subscription_text input[type="email"] {
+    width: 100%;
     padding: 3px;
   }
   .subscription .subscription_text button {
+    width: 100%;
     padding: 4px 3px;
   }
 }
