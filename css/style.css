@@ -277,6 +277,12 @@ img {
   text-decoration: none;
 }
 
+.main .content .content_right .text_right .btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
 .shop {
   display: flex;
   justify-content: center;
