@@ -262,9 +262,9 @@
 }
 
 @media(max-width: 767px) {
-	.main{
-		.content{
-			
+	.text_left{
+		h2{
+			font-size: $font-xl;
 		}
 	}
 	.subscription {
