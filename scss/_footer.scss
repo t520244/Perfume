@@ -1,0 +1,45 @@
+.footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #916000;
+	.footer_logo {
+		display: flex;
+		align-items: center;
+		li {
+			padding: 10px;
+		}
+		span {
+			font-size: 14px;
+			color: $White;
+		}
+	}
+
+	.footer_menu {
+		display: flex;
+		align-items: center;
+		li {
+			padding-right: 30px;
+		}
+
+		a {
+			text-decoration: none;
+			font-size: $font-l;
+			color: $White;
+		}
+	}
+
+}
+
+@media(max-width: 767px) {
+	.footer {
+		.footer_logo {
+			padding: 0 8rem;
+		}
+
+		.footer_menu {
+			li {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+@import "./reset";
+@import "./color";
+@import "./header";
+@import "./index";
+@import "./product";
+@import "./login";
+@import "./footer";
+
+
+.swal2-popup.swal2-modal {
+	font-size: 10pt; 
+}
+.swal2-modal .swal2-title {
+	font-size: 1.5em;
+}
+.swal2-modal button {
+	padding: 3px 6px;
+}
+
+
+// material-icons
+
+.material-icons.md-18 {
+	font-size: 18px;
+}
+
+.material-icons.md-24 {
+	font-size: 24px;
+}
+
+.material-icons.md-36 {
+	font-size: 36px;
+}
+
+.material-icons.md-48 {
+	font-size: 48px;
+}
+

@@ -1,0 +1,275 @@
+.banner {
+	height: 870px;
+	background-image: url(../images/back-image.jpg );
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	.banner_text {
+		padding: 18rem 25rem;
+		color: $White;
+		h1 {
+			font-size: 40px;
+		}
+		p {
+			font-size: 24px;
+			padding-bottom: 2rem;
+		}
+		input[type="button"] {
+			border-radius: 30px;
+			font-size: 20px;
+			padding: 1rem 8rem;
+			cursor: pointer;
+			outline: none; //去除超連結的虛線外框
+			border: 5px $White solid;
+			color: $White;
+			background: #00000000;
+		}
+		input[type="button"]:hover {
+			background: #0303035b;
+		}
+	}
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	padding: 60px 0;
+	.content {
+		width: 58%;
+		.btn {
+			padding: 30px 0;
+		}
+		input[type="button"] {
+			background-color: #00000000;
+			border-radius: 30px;
+			border: solid 1px #000;
+			font-size: 20px;
+			padding: 1rem 5rem;
+			cursor: pointer;
+			outline: none;
+		}
+		input[type="button"]:hover {
+			background: #03030321;
+		}
+		.content_left {
+			display: flex;
+			flex-direction: row-reverse;
+			.text_left {
+				padding: 10rem 5rem;
+				line-height: 1.5;
+				h2 {
+					font-size: $font-xxl;
+				}
+				p {
+					font-size: $font-l;
+				}
+				a {
+					color: #916019;
+					text-decoration: none;
+				}
+			}
+		}
+		.content_right {
+			display: flex;
+			.text_right {
+				padding: 10rem 5rem;
+				line-height: 1.5;
+				li {
+					line-height: 1.5rem;
+					padding-top: 2rem;
+				}
+				h2 {
+					font-size: $font-xxl;
+				}
+				h3 {
+					font-size: $font-xl;
+				}
+				p {
+					font-size: $font-l;
+				}
+				a {
+					color: #916019;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.shop {
+	display: flex;
+	justify-content: center;
+	background: #E0E0E0 0% 0% no-repeat padding-box;
+	.shop_buy {
+		display: flex;
+		padding: 40px;
+		.shop_style {
+			padding: 16px;
+			h3 {
+				font-size: $font-xl;
+			}
+			h4 {
+				font-size: $font-m;
+				font-weight: normal;
+			}
+			p {
+				padding-top: 20px;
+				span {
+					padding: 0 10px;
+					color: $SuvaGrey;
+					text-decoration: line-through;
+				}
+			}
+		}
+
+		.shop_img {
+			position: relative;
+		}
+
+		.sold_out {
+			position: absolute;
+			width: 92%;
+			height: 82%;
+			top: 15px;
+			left: 1rem;
+			background-color: rgba(3, 3, 3, 0.479);
+			span {
+				display: flex;
+				justify-content: center;
+				margin: 15rem 5rem;
+				font-size: $font-xl;
+				color: $White;
+			}
+		}
+
+	}
+}
+
+.Information {
+	display: flex;
+	justify-content: center;
+	.content {
+		padding: 30px 10px;
+		.content_style {
+			display: flex;
+			justify-content: space-around;
+			.content_text {
+				padding-left: 20px;
+				padding-top: 30px;
+				line-height: 1.3;
+				h3 {
+					font-size: $font-xxl;
+				}
+				h4 {
+					font-size: $font-l;
+				}
+				p {
+					padding-bottom: 10px;
+				}
+				a {
+					text-decoration: none;
+					color: #AC8A46;
+				}
+			}
+		}
+	}
+}
+
+
+@media(max-width:992px) {
+	.banner {
+		background-image: url(../images/back-image-s.jpg );
+		justify-content: center;
+		align-items: center;
+		.banner_text {
+			padding: 0;
+			font-size: 40px;
+		}
+	}
+
+	.main {
+		.content {
+			width: 100%;
+			.content_left,
+			.content_right {
+				flex-direction: column;
+				img {
+					padding: 20px;
+				}
+				.text_left,
+				.text_right {
+					padding: 0 6.5rem;
+				}
+			}
+		}
+	}
+
+	.shop {
+		.shop_buy {
+		    flex-direction: column;
+		}
+	}
+
+	.Information {
+		.content {
+			.content_style {
+				flex-direction: column;
+				.content_text {
+					justify-content: center;
+					margin: 0 6rem;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+.subscription {
+	position: relative;
+	height: 600px;
+	background-image: url(../images/anis-m-footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	.subscription_text {
+		position: absolute;
+		left: 28rem;
+		bottom: 6rem;
+		h2 {
+			color: $SuvaGrey;
+			font-size: $font-xxl;
+		}
+		input[type="email"] {
+			padding: 20px 30px;
+			border-radius: 2px;
+			outline: none;
+			border: solid 3px #916000;
+		}
+		button {
+			padding: 20px;
+			outline: none;
+			border-radius: 2px;
+			border: solid 3px #916000;
+			color: $White;
+			background-color: #916000;
+		}
+	}
+}
+
+@media(max-width: 767px) {
+	.subscription {
+		background-image: url(../images/anis-s-bg.jpg);
+		background-repeat: no-repeat;
+		.subscription_text {
+			position: absolute;
+			left: 10rem;
+			bottom: 10rem;
+		}
+	}
+}
+

@@ -1,0 +1,146 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px 0;
+	position: relative;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+	li span {
+		vertical-align: middle; //圖片在垂直方向的對齊方式
+		padding: 0 10px;
+	}
+
+	li a {
+		color: $SuvaGrey;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		padding: 0 10px;
+	}
+}
+
+.menu {
+	display: none;
+}
+
+.navbar-toggler {
+	display: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.navbar-nav {
+	position: relative;
+	left: 0;
+	max-height: 0px;
+	opacity: 0;
+}
+
+.navbar .active {
+	max-height: 500px;
+	opacity: 1;
+}
+
+.navbar-collapse {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link {
+	color: $DimGray;
+	font-weight: bold;
+	padding: 0 30px;
+	display: block;
+}
+
+.navbar-link {
+	position: relative;
+	opacity: 0;
+	color: $SuvaGrey;
+
+	.number {
+		position: absolute;
+		bottom: 20px;
+		color: $White;
+		background-color: $GoldenBrown;
+		border-radius: 50%;
+		padding: 0 5px;
+	}
+
+}
+
+@media (max-width:767px) {
+	.nav {
+		display: none;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.navbar-toggler {
+		display: block;
+		margin: 0 40px;
+
+		span {
+			margin: 0 0.5rem;
+		}
+	}
+
+	.navbar-toggler:focus {
+		outline: 0;
+	}
+
+	.navbar-nav {
+		position: absolute;
+		opacity: 1;
+		left: 0;
+		top: 100%;
+		width: 100%;
+		transition: all 0.8s;
+		overflow: hidden;
+		background: $White;
+		flex-direction: column;
+	}
+
+	.nav-link {
+		padding: 10px 0;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	.nav-link:hover {
+		color: $White;
+	}
+
+	.nav-item {
+		width: 100%;
+		border-bottom: dashed 1px $DimGray;
+	}
+
+	.nav-item:hover {
+		background-color: $DimGray;
+	}
+
+	.navbar-link {
+		padding-left: 0;
+		opacity: 1;
+
+		.number {
+			margin: 10px 0;
+		}
+	}
+}
