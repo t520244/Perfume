@@ -257,7 +257,6 @@ img {
 .main .content .content_right .text_right li {
   line-height: 1.5rem;
   padding-top: 2rem;
-  border: solid 2px red;
 }
 
 .main .content .content_right .text_right h2 {
@@ -430,6 +429,7 @@ img {
   position: absolute;
   left: 25rem;
   bottom: 6rem;
+  border: solid 2px red;
 }
 
 .subscription .subscription_text h2 {

@@ -78,7 +78,6 @@
 				li {
 					line-height: 1.5rem;
 					padding-top: 2rem;
-					border: solid 2px red;
 				}
 				h2 {
 					font-size: $font-xxl;
@@ -211,11 +210,6 @@
 			.btn{
 				padding: 0;
 			}
-			// input[type="button"] {
-			// 	width: 130%;
-			// 	padding: 0;
-			// 	font-size: $font-l;
-			// }
 		}
 	}
 
@@ -248,6 +242,7 @@
 		position: absolute;
 		left: 25rem;
 		bottom: 6rem;
+		border: solid 2px red;
 		h2 {
 			color: $SuvaGrey;
 			font-size: $font-xxl;
