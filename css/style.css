@@ -448,6 +448,9 @@ img {
 }
 
 @media (max-width: 767px) {
+  input[type="button"] {
+    width: 130%;
+  }
   .subscription {
     background-image: url(../images/anis-s-bg.jpg);
     background-repeat: no-repeat;
