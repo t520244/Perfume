@@ -96,7 +96,7 @@
 				.btn{
 					display: flex;
 					justify-content: center;
-					padding: 20px;
+					padding: 4rem;
 				}
 			}
 		}
@@ -207,6 +207,9 @@
 				.text_right {
 					padding: 0 6.5rem;
 				}
+			}
+			.btn{
+				padding: 0;
 			}
 			// input[type="button"] {
 			// 	width: 130%;

@@ -280,7 +280,7 @@ img {
 .main .content .content_right .text_right .btn {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 4rem;
 }
 
 .shop {
@@ -401,6 +401,9 @@ img {
   .main .content .content_right .text_left,
   .main .content .content_right .text_right {
     padding: 0 6.5rem;
+  }
+  .main .content .btn {
+    padding: 0;
   }
   .shop .shop_buy {
     flex-direction: column;
