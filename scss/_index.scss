@@ -75,7 +75,6 @@
 			.text_right {
 				padding: 8rem 1.2rem;
 				line-height: 1.5;
-				border: solid 1px red;
 				li {
 					line-height: 1.5rem;
 					padding-top: 2rem;
@@ -241,12 +240,12 @@
 	background-size: cover;
 	.subscription_text {
 		position: absolute;
-		left: 20rem;
+		// left: 20rem;
 		bottom: 6rem;
 		border: solid 2px red;
 		h2 {
 			color: $SuvaGrey;
-			font-size: $font-xxl;
+			font-size: $font-xl;
 		}
 		input[type="email"] {
 			padding: 20px 30px;

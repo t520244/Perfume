@@ -252,7 +252,6 @@ img {
 .main .content .content_right .text_right {
   padding: 8rem 1.2rem;
   line-height: 1.5;
-  border: solid 1px red;
 }
 
 .main .content .content_right .text_right li {
@@ -428,14 +427,13 @@ img {
 
 .subscription .subscription_text {
   position: absolute;
-  left: 20rem;
   bottom: 6rem;
   border: solid 2px red;
 }
 
 .subscription .subscription_text h2 {
   color: #8D8D8D;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .subscription .subscription_text input[type="email"] {
