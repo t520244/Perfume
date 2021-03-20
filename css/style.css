@@ -210,7 +210,6 @@ img {
 .main .content .btn {
   display: flex;
   justify-content: center;
-  padding: 30px;
 }
 
 .main .content input[type="button"] {
