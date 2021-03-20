@@ -40,7 +40,9 @@
 	.content {
 		width: 58%;
 		.btn {
-			padding: 30px 0;
+			display: flex;
+			justify-content: center;
+			padding: 30px;
 		}
 		input[type="button"] {
 			background-color: #00000000;
@@ -262,8 +264,6 @@
 }
 
 @media(max-width: 767px) {
-	
-	
 	.subscription {
 		background-image: url(../images/anis-s-bg.jpg);
 		background-repeat: no-repeat;
@@ -271,24 +271,6 @@
 			position: absolute;
 			left: 10rem;
 			bottom: 10rem;
-		}
-	}
-}
-
-@media(max-width: 414px) {
-	.main{
-		border: solid 1px red;
-		.content{
-			.text_left{
-				h2{
-					font-size: $font-xl;
-				}
-			}
-			.content_right{
-				.btn{
-					border: solid 1px red;
-				}
-			}
 		}
 	}
 }
