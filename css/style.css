@@ -396,7 +396,6 @@ img {
     padding: 0 6.5rem;
   }
   .main .content input[type="button"] {
-    width: 100%;
     padding: 0;
     font-size: 20px;
   }
@@ -465,11 +464,11 @@ img {
 
 @media (max-width: 414px) {
   input[type="button"] {
-    width: 100%;
+    width: 130%;
   }
   .subscription .subscription_text {
     position: absolute;
-    left: 10rem;
+    left: 2rem;
     bottom: 10rem;
   }
 }
@@ -693,6 +692,12 @@ img {
   }
   .footer .footer_menu li {
     display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer .footer_logo {
+    padding: 0;
   }
 }
 

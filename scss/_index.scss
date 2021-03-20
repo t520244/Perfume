@@ -78,7 +78,6 @@
 				li {
 					line-height: 1.5rem;
 					padding-top: 2rem;
-					// border: solid 1px red;
 				}
 				h2 {
 					font-size: $font-xxl;
@@ -204,7 +203,7 @@
 				}
 			}
 			input[type="button"] {
-				width: 100%;
+				// width: 100%;
 				padding: 0;
 				font-size: $font-l;
 			}
@@ -279,12 +278,12 @@
 
 @media(max-width: 414px) {
 	input[type="button"] {
-		width: 100%;
+		width: 130%;
 	}
 	.subscription {
 		.subscription_text {
 			position: absolute;
-			left: 10rem;
+			left: 2rem;
 			bottom: 10rem;
 		}
 	}
