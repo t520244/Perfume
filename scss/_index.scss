@@ -262,16 +262,21 @@
 }
 
 @media(max-width: 767px) {
-	.text_left{
-		h2{
-			font-size: $font-xl;
+	.main{
+		.content{
+			.text_left{
+				h2{
+					font-size: $font-xl;
+				}
+			}
+			.content_right{
+				.btn{
+					border: solid 1px red;
+				}
+			}
 		}
 	}
-	.content_right{
-		.btn{
-			border: solid 1px red;
-		}
-	}
+	
 	.subscription {
 		background-image: url(../images/anis-s-bg.jpg);
 		background-repeat: no-repeat;

@@ -447,10 +447,10 @@ img {
 }
 
 @media (max-width: 767px) {
-  .text_left h2 {
+  .main .content .text_left h2 {
     font-size: 24px;
   }
-  .content_right .btn {
+  .main .content .content_right .btn {
     border: solid 1px red;
   }
   .subscription {
