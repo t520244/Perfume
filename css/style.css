@@ -455,12 +455,6 @@ img {
   }
 }
 
-@media (max-width: 414px) {
-  .btn {
-    border: solid 1px red;
-  }
-}
-
 .product {
   display: flex;
   background: #916000;
