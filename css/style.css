@@ -451,7 +451,7 @@ img {
     font-size: 24px;
   }
   .content_right .btn {
-    broder: solid 1px red;
+    border: solid 1px red;
   }
   .subscription {
     background-image: url(../images/anis-s-bg.jpg);
