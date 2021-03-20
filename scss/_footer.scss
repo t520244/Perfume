@@ -1,7 +1,7 @@
 .footer {
 	display: flex;
 	justify-content: space-around;
-	background-color: #916000;
+	background-color: $GoldenBrown;
 	.footer_logo {
 		display: flex;
 		align-items: center;
@@ -9,7 +9,7 @@
 			padding: 10px;
 		}
 		span {
-			font-size: 14px;
+			font-size: $font-s;
 			color: $White;
 		}
 	}

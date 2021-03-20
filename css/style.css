@@ -190,11 +190,11 @@ img {
   outline: none;
   border: 5px #FFFFFF solid;
   color: #FFFFFF;
-  background: #00000000;
+  background: rgba(0, 0, 0, 0);
 }
 
 .banner .banner_text input[type="button"]:hover {
-  background: #00000065;
+  background: rgba(0, 0, 0, 0.396);
 }
 
 .main {
@@ -218,7 +218,7 @@ img {
 }
 
 .main .content input[type="button"]:hover {
-  background: #03030321;
+  background: rgba(3, 3, 3, 0.129);
 }
 
 .main .content .content_left {
@@ -324,7 +324,7 @@ img {
   position: absolute;
   top: 16px;
   left: 1rem;
-  background-color: rgba(3, 3, 3, 0.479);
+  background-color: rgba(3, 3, 3, 0.478);
 }
 
 .shop .shop_buy .sold_out span {
@@ -399,7 +399,7 @@ img {
   border-radius: 2px;
   outline: none;
   font-size: 20px;
-  border: solid 3px #916000;
+  border: solid 3px #916019;
 }
 
 .subscription .subscription_text button {
@@ -407,9 +407,9 @@ img {
   outline: none;
   border-radius: 2px;
   font-size: 20px;
-  border: solid 4px #916000;
+  border: solid 4px #916019;
   color: #FFFFFF;
-  background-color: #916000;
+  background-color: #916019;
 }
 
 @media (max-width: 992px) {
@@ -487,14 +487,7 @@ img {
     font-size: 20px;
   }
   .banner .banner_text input[type="button"] {
-    border-radius: 30px;
-    font-size: 20px;
     padding: 1rem 7rem;
-    cursor: pointer;
-    outline: none;
-    border: 5px #FFFFFF solid;
-    color: #FFFFFF;
-    background: #00000000;
   }
   .main .content .content_left,
   .main .content .content_right {
@@ -502,7 +495,7 @@ img {
   }
   .main .content .content_left img,
   .main .content .content_right img {
-    padding: 0;
+    padding: 30px;
   }
   .main .content .content_left .text_left,
   .main .content .content_left .text_right,
@@ -519,6 +512,19 @@ img {
   }
   .sold_out span {
     margin: -1rem;
+  }
+  .Information .content .content_style {
+    margin: 0 -65px;
+  }
+  .Information .content .content_style .content_text {
+    width: 65%;
+    padding: 0;
+  }
+  .Information .content .content_style .content_text h3 {
+    font-size: 24px;
+  }
+  .Information .content .content_style .content_text h4 {
+    font-size: 16px;
   }
   .subscription .subscription_text {
     position: absolute;
@@ -540,7 +546,7 @@ img {
 
 .product {
   display: flex;
-  background: #916000;
+  background: #916019;
   padding: 20px 0;
 }
 
@@ -669,7 +675,7 @@ img {
 .login .forgot a {
   text-decoration: none;
   font-size: 16px;
-  color: #916000;
+  color: #916019;
   padding: 5px 0;
 }
 
@@ -680,9 +686,9 @@ img {
 
 .login .forgot button {
   cursor: pointer;
-  color: #916000;
+  color: #916019;
   font-size: 16px;
-  border: solid 1px #916000;
+  border: solid 1px #916019;
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.411);
   outline: none;
@@ -691,7 +697,7 @@ img {
 }
 
 .login .forgot .signin {
-  background-color: #916000;
+  background-color: #916019;
 }
 
 .login .forgot .signin a {
@@ -701,25 +707,32 @@ img {
 @media (max-width: 767px) {
   .login .content {
     flex-direction: column;
-    justify-content: center;
-    padding: 20px 0;
+    padding: 30px 0;
+  }
+  .login .content .log-in {
+    margin: 60px;
   }
   .login .content .log-in h2 {
-    margin: 0 5rem;
+    margin: 3rem 5rem;
   }
   .login .content .log-in form {
-    margin: 0 5rem;
+    margin: 4rem 5rem;
   }
   .login .content .forgot .buttonClick {
-    justify-content: space-between;
     margin: 0 6rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .login .content .forgot .buttonClick {
+    margin: 0 5rem;
   }
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: #916000;
+  background-color: #916019;
 }
 
 .footer .footer_logo {

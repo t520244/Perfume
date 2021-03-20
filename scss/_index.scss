@@ -11,24 +11,24 @@
 		padding: 18rem 25rem;
 		color: $White;
 		h1 {
-			font-size: 40px;
+			font-size: $font-xxxl;
 		}
 		p {
-			font-size: 24px;
+			font-size: $font-xl;
 			padding-bottom: 2rem;
 		}
 		input[type="button"] {
 			border-radius: 30px;
-			font-size: 20px;
+			font-size: $font-l;
 			padding: 1rem 10rem;
 			cursor: pointer;
 			outline: none; //去除超連結的虛線外框
 			border: 5px $White solid;
 			color: $White;
-			background: #00000000;
+			background: rgba(0, 0, 0, 0);
 		}
 		input[type="button"]:hover {
-			background: #00000065;
+			background: rgba(0, 0, 0, 0.396);
 		}
 	}
 }
@@ -43,13 +43,13 @@
 			background-color: #00000000;
 			border-radius: 30px;
 			border: solid 1px #000;
-			font-size: 20px;
+			font-size: $font-l;
 			padding: 1rem 5rem;
 			cursor: pointer;
 			outline: none;
 		}
 		input[type="button"]:hover {
-			background: #03030321;
+			background: rgba(3, 3, 3, 0.129);
 		}
 		.content_left {
 			display: flex;
@@ -64,7 +64,7 @@
 					font-size: $font-l;
 				}
 				a {
-					color: #916019;
+					color: $GoldenBrown;
 					text-decoration: none;
 				}
 			}
@@ -89,7 +89,7 @@
 					font-size: $font-l;
 				}
 				a {
-					color: #916019;
+					color: $GoldenBrown;
 					text-decoration: none;
 				}
 				.btn{
@@ -105,7 +105,7 @@
 .shop {
 	display: flex;
 	justify-content: center;
-	background: #E0E0E0 0% 0% no-repeat padding-box;
+	background: $Gainsboro 0% 0% no-repeat padding-box;
 	.shop_buy {
 		display: flex;
 		padding: 40px;
@@ -134,10 +134,9 @@
 
 		.sold_out {
 			position: absolute;
-		
 			top: 16px;
 			left: 1rem;
-			background-color: rgba(3, 3, 3, 0.479);
+			background-color: rgba(3, 3, 3, 0.478);
 			span {
 				display: flex;
 				justify-content: center;
@@ -175,7 +174,7 @@
 				}
 				a {
 					text-decoration: none;
-					color: #AC8A46;
+					color: $LuxorGold;
 				}
 			}
 		}
@@ -202,16 +201,16 @@
 			border-radius: 2px;
 			outline: none;
 			font-size: $font-l;
-			border: solid 3px #916000;
+			border: solid 3px $GoldenBrown;
 		}
 		button {
 			padding: 15px;
 			outline: none;
 			border-radius: 2px;
 			font-size: $font-l;
-			border: solid 4px #916000;
+			border: solid 4px $GoldenBrown;
 			color: $White;
-			background-color: #916000;
+			background-color: $GoldenBrown;
 		}
 	}
 }
@@ -224,7 +223,7 @@
 		align-items: center;
 		.banner_text {
 			padding: 0;
-			font-size: 40px;
+			font-size: $font-xxxl;
 		}
 	}
 
@@ -306,14 +305,7 @@
 				font-size: $font-l;
 			}
 			input[type="button"] {
-				border-radius: 30px;
-				font-size: 20px;
 				padding: 1rem 7rem;
-				cursor: pointer;
-				outline: none; //去除超連結的虛線外框
-				border: 5px $White solid;
-				color: $White;
-				background: #00000000;
 			}
 		}
 	}
@@ -323,7 +315,7 @@
 			.content_right {
 				flex-direction: column;
 				img {
-					padding: 0;
+					padding: 30px;
 				}
 				.text_left,
 				.text_right {
@@ -341,6 +333,24 @@
 		height: 76%;
 		span{
 			margin: -1rem;
+		}
+	}
+
+	.Information {
+		.content {
+			.content_style {
+				margin:  0 -65px;
+				.content_text {
+					width: 65%;
+					padding: 0;
+					h3{
+						font-size: $font-xl;
+					}
+					h4{
+						font-size: $font-m;
+					}
+				}
+			}
 		}
 	}
 	.subscription {

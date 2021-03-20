@@ -10,7 +10,6 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-
 	li span {
 		vertical-align: middle; //圖片在垂直方向的對齊方式
 		padding: 0 10px;
@@ -64,7 +63,6 @@
 	position: relative;
 	opacity: 0;
 	color: $SuvaGrey;
-
 	.number {
 		position: absolute;
 		bottom: 20px;
@@ -94,7 +92,6 @@
 	.navbar-toggler {
 		display: block;
 		margin: 0 40px;
-
 		span {
 			margin: 0 0.5rem;
 		}

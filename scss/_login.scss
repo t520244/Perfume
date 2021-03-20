@@ -33,7 +33,7 @@
         a{
             text-decoration: none;
             font-size: $font-m;
-            color: #916000;
+            color: $GoldenBrown;
             padding: 5px 0;
         }
         .buttonClick{
@@ -43,9 +43,9 @@
         
         button{
             cursor:pointer;
-            color: #916000; 
+            color: $GoldenBrown; 
             font-size: $font-m;
-            border: solid 1px #916000;
+            border: solid 1px $GoldenBrown;
             border-radius: 2px;
             background-color: rgba(255, 255, 255, 0.411);
             outline: none;
@@ -54,7 +54,7 @@
            
         }
         .signin {
-                background-color: #916000;
+                background-color: $GoldenBrown;
                 a{
                     color: $White;
                 }
@@ -66,20 +66,32 @@
     .login{
         .content{
             flex-direction: column;
-            justify-content: center;
-            padding: 20px 0;
+            padding: 30px 0;
             .log-in{
+                margin: 60px;
                 h2{
-                  margin: 0 5rem;  
+                  margin: 3rem 5rem;  
                 }
                 form{
-                    margin: 0 5rem;
+                    margin: 4rem 5rem;
                 } 
             }
             .forgot{
                 .buttonClick{
-                    justify-content: space-between;
                     margin: 0 6rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 414px){
+    .login{
+        .content{
+            .forgot{
+                .buttonClick{
+                    margin: 0 5rem;
                 }
             }
         }
