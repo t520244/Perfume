@@ -297,18 +297,14 @@
 	.subscription {
 		.subscription_text {
 			position: absolute;
-			left: 2rem;
-			bottom: 10rem;
-			border: solid 2px red;
-			h2 {
-				font-size: $font-m;
-			}
+			left: 4rem;
+			bottom: 15rem;
+			// border: solid 2px red;
 			input[type="email"] {
-				padding: 8px 20px;
+				padding: 3px;
 			}
 			button {
-				padding: 10px;
-				font-size: $font-m;
+				padding: 4px 3px;
 			}
 		}
 	}
