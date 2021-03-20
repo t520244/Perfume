@@ -322,9 +322,7 @@ img {
 
 .shop .shop_buy .sold_out {
   position: absolute;
-  width: 92%;
-  height: 82%;
-  top: 15px;
+  top: 16px;
   left: 1rem;
   background-color: rgba(3, 3, 3, 0.479);
 }
@@ -332,7 +330,9 @@ img {
 .shop .shop_buy .sold_out span {
   display: flex;
   justify-content: center;
-  margin: 15rem 5rem;
+  align-items: center;
+  width: 350px;
+  height: 540px;
   font-size: 24px;
   color: #FFFFFF;
 }
@@ -476,6 +476,50 @@ img {
 }
 
 @media (max-width: 414px) {
+  .banner .banner_text {
+    justify-content: center;
+    padding: 20px;
+  }
+  .banner .banner_text h1 {
+    font-size: 24px;
+  }
+  .banner .banner_text p {
+    font-size: 20px;
+  }
+  .banner .banner_text input[type="button"] {
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 1rem 7rem;
+    cursor: pointer;
+    outline: none;
+    border: 5px #FFFFFF solid;
+    color: #FFFFFF;
+    background: #00000000;
+  }
+  .main .content .content_left,
+  .main .content .content_right {
+    flex-direction: column;
+  }
+  .main .content .content_left img,
+  .main .content .content_right img {
+    padding: 0;
+  }
+  .main .content .content_left .text_left,
+  .main .content .content_left .text_right,
+  .main .content .content_right .text_left,
+  .main .content .content_right .text_right {
+    padding: 0 30px;
+  }
+  .main .content .btn {
+    padding: 0;
+  }
+  .sold_out {
+    width: 91%;
+    height: 76%;
+  }
+  .sold_out span {
+    margin: -1rem;
+  }
   .subscription .subscription_text {
     position: absolute;
     left: 4rem;

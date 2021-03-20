@@ -134,15 +134,16 @@
 
 		.sold_out {
 			position: absolute;
-			width: 92%;
-			height: 82%;
-			top: 15px;
+		
+			top: 16px;
 			left: 1rem;
 			background-color: rgba(3, 3, 3, 0.479);
 			span {
 				display: flex;
 				justify-content: center;
-				margin: 15rem 5rem;
+				align-items: center;
+				width: 350px;
+				height: 540px;
 				font-size: $font-xl;
 				color: $White;
 			}
@@ -294,6 +295,54 @@
 
 
 @media(max-width: 414px) {
+	.banner {
+		.banner_text {
+			justify-content: center;
+			padding: 20px;
+			h1{
+				font-size: $font-xl;
+			}
+			p{
+				font-size: $font-l;
+			}
+			input[type="button"] {
+				border-radius: 30px;
+				font-size: 20px;
+				padding: 1rem 7rem;
+				cursor: pointer;
+				outline: none; //去除超連結的虛線外框
+				border: 5px $White solid;
+				color: $White;
+				background: #00000000;
+			}
+		}
+	}
+	.main {
+		.content {
+			.content_left,
+			.content_right {
+				flex-direction: column;
+				img {
+					padding: 0;
+				}
+				.text_left,
+				.text_right {
+					padding: 0 30px;
+				}
+			}
+			.btn{
+				padding: 0;
+			}
+		}
+	}
+
+	.sold_out {
+		width: 91%;
+		height: 76%;
+		span{
+			margin: -1rem;
+		}
+	}
 	.subscription {
 		.subscription_text {
 			position: absolute;
