@@ -203,7 +203,7 @@
 				}
 			}
 			input[type="button"] {
-				// width: 100%;
+				width: 130%;
 				padding: 0;
 				font-size: $font-l;
 			}
@@ -261,9 +261,6 @@
 }
 
 @media(max-width: 767px) {
-	input[type="button"] {
-		width: 130%;
-	}
 	.subscription {
 		background-image: url(../images/anis-s-bg.jpg);
 		background-repeat: no-repeat;
