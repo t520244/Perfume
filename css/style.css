@@ -454,7 +454,6 @@ img {
   }
   .subscription .subscription_text {
     margin: -2rem;
-    border: solid 2px red;
   }
   .subscription .subscription_text h2 {
     font-size: 24px;
@@ -473,6 +472,24 @@ img {
     position: absolute;
     left: 10rem;
     bottom: 15rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .subscription .subscription_text {
+    position: absolute;
+    left: 2rem;
+    bottom: 10rem;
+  }
+  .subscription .subscription_text h2 {
+    font-size: 16px;
+  }
+  .subscription .subscription_text input[type="email"] {
+    padding: 8px 20px;
+  }
+  .subscription .subscription_text button {
+    padding: 10px;
+    font-size: 16px;
   }
 }
 
