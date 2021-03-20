@@ -447,6 +447,9 @@ img {
 }
 
 @media (max-width: 767px) {
+  .main {
+    border: solid 1px red;
+  }
   .main .content .text_left h2 {
     font-size: 24px;
   }
